@@ -14,8 +14,18 @@
   border: 1px solid var(--color-black);
   height: 100%;
   width: 100%;
-}
 
+  color: var(--color-black);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+::placeholder {
+  color: var(--color-black);
+}
 .searchButton {
   border-radius: 0px 8px 8px 0px;
   padding: 14px 20px;

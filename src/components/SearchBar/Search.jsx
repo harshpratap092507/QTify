@@ -9,10 +9,7 @@ const Search = memo((props) => {
   return (
     <>
       <form className={styles.wrapper} onSubmit={handleSubmit}>
-        <input
-          className={styles.search}
-          placeholder="Search a album of your choice"
-        />
+        <input className={styles.search} placeholder={props.placeholder} />
         <button className={styles.searchButton}>
           <SearchIcon />
         </button>

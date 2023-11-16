@@ -9,7 +9,7 @@ export default memo(function Navbar() {
     <>
       <div className={styles.Navbar_container}>
         <Logo />
-        <Search />
+        <Search placeholder="Search a album of your choice" />
         <Button>Give Feedback</Button>
       </div>
     </>
