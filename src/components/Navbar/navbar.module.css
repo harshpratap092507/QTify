@@ -1,0 +1,10 @@
+.Navbar_container {
+  background-color: #34c94b;
+  height: 74px;
+  width: 100%;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

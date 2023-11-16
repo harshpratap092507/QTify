@@ -1,0 +1,11 @@
+.Feedback_container {
+  background-color: #121212;
+  color: #34c94b;
+  height: 47px;
+  width: 170px;
+  border-radius: 12px;
+  padding: 10px, 16px, 10px, 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
