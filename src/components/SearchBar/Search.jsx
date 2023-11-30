@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import styles from "./search.module.css";
 import { ReactComponent as SearchIcon } from "../../assets/Searchicon.svg";
 

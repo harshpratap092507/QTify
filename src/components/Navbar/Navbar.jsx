@@ -7,11 +7,11 @@ import Logo from "../QtifyLogo/logo";
 export default function Navbar() {
   return (
     <>
-      <nav className={styles.Navbar_container}>
+      <div className={styles.Navbar_container}>
         <Logo />
         <Search placeholder="Search a album of your choice" />
         <Button>Give Feedback</Button>
-      </nav>
+      </div>
     </>
   );
 }
