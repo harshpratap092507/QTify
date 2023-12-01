@@ -4,6 +4,8 @@ import Card from "../Card/Card";
 import Carousel from "../Carousel/Carousel";
 import styles from "../Section/section.module.css";
 import Filters from "../Filter/Filter";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 export default function Section({ title, data, filterSource, type }) {
   const [filters, setFilters] = useState([{ key: "all", lable: "All" }]);
